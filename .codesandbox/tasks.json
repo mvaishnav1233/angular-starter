@@ -1,0 +1,113 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "ng": {
+      "name": "ng",
+      "command": "npm run ng",
+      "runAtStart": false
+    },
+    "start": {
+      "name": "start",
+      "command": "npm run start",
+      "runAtStart": true
+    },
+    "build": {
+      "name": "build",
+      "command": "npm run build",
+      "runAtStart": false
+    },
+    "build:prod": {
+      "name": "build:prod",
+      "command": "npm run build:prod",
+      "runAtStart": false
+    },
+    "build:prod:stats": {
+      "name": "build:prod:stats",
+      "command": "npm run build:prod:stats",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "npm run test",
+      "runAtStart": false
+    },
+    "test:watch": {
+      "name": "test:watch",
+      "command": "npm run test:watch",
+      "runAtStart": false
+    },
+    "test:ci": {
+      "name": "test:ci",
+      "command": "npm run test:ci",
+      "runAtStart": false
+    },
+    "test:coverage": {
+      "name": "test:coverage",
+      "command": "npm run test:coverage",
+      "runAtStart": false
+    },
+    "lint": {
+      "name": "lint",
+      "command": "npm run lint",
+      "runAtStart": false
+    },
+    "e2e": {
+      "name": "e2e",
+      "command": "npm run e2e",
+      "runAtStart": false
+    },
+    "compodoc": {
+      "name": "compodoc",
+      "command": "npm run compodoc",
+      "runAtStart": false
+    },
+    "analyze": {
+      "name": "analyze",
+      "command": "npm run analyze",
+      "runAtStart": false
+    },
+    "prettier": {
+      "name": "prettier",
+      "command": "npm run prettier",
+      "runAtStart": false
+    },
+    "prepare": {
+      "name": "prepare",
+      "command": "npm run prepare",
+      "runAtStart": false
+    },
+    "audit": {
+      "name": "audit",
+      "command": "npm run audit",
+      "runAtStart": false
+    },
+    "version": {
+      "name": "version",
+      "command": "npm run version",
+      "runAtStart": false
+    },
+    "docs:json": {
+      "name": "docs:json",
+      "command": "npm run docs:json",
+      "runAtStart": false
+    },
+    "storybook": {
+      "name": "storybook",
+      "command": "npm run storybook",
+      "runAtStart": false
+    },
+    "build-storybook": {
+      "name": "build-storybook",
+      "command": "npm run build-storybook",
+      "runAtStart": false
+    }
+  }
+}
